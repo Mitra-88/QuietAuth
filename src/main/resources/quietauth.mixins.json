@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "dev.mitra.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"minVersion": "0.8",
+	"client": [
+		"YggdrasilServicesKeyInfoMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	}
+}

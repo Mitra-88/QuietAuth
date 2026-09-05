@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "quietauth",
+	"version": "${version}",
+	"name": "QuietAuth",
+	"description": "Blazingly fast, extremely lightweight log spam suppressor for Minecraft. Eliminates micro-stutters (1% lows), reduces GC pressure, and protects SSD health by suppressing known non-actionable log spam.",
+	"authors": [
+		"Mitra-88"
+	],
+	"contact": {
+		"sources": "https://github.com/Mitra-88/QuietAuth"
+	},
+	"license": "Unlicense",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.mitra.QuietAuthClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "quietauth.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25"
+	}
+}
