@@ -18,6 +18,7 @@ public final class SpamFilter extends AbstractFilter {
     private static final String[] ERROR_SPAM_PREFIXES = {
             "Malformed signature encoding on property",
             "Failed to verify signature on property",
+            "Failed to recreate fishing hook on client",
             "Couldn't parse item model"
     };
 
